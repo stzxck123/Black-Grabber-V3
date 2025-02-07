@@ -39,12 +39,15 @@
 - Anti-VM (PySilon won't run on Virtual Machines, f.ex.: VirtualBox, VMWare)
 - run shell commands (CMD/Powershell)
 - Debug Mode for easier testing and contribution
-### Preparation
-``` git clone https://github.com/mategol/blackgrabber-malware
-``` cd blackgrabber-malware
-` Create Discord BOT and server
-` Windows: Run the blackgrabber.exe either from Command Line or double clicking on it
+### Preparation` git clone https://github.com/mategol/blackgrabber-malware
+ cd blackgrabber-malware
+ Create Discord BOT and server
+ Windows: Run the blackgrabber.exe either from Command Line or double clicking on it
  Linux: Run the blackgrabber.sh from Command Line
+
+
+
+ 
 .ss - take screenshot at any time
 .screenrec - record the screen for 15 seconds
 .critical-enable - elevates the process to critical status (.critical-disable to undo)
