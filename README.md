@@ -50,7 +50,7 @@
 
 ### Commands
  
-.ss - take screenshot at any time
+```.ss - take screenshot at any time
 .screenrec - record the screen for 15 seconds
 .critical-enable - elevates the process to critical status (.critical-disable to undo)
 .display-graphic - manipulate low-level graphics by displaying pixels prepared in DrawlingStudio
