@@ -48,7 +48,7 @@
 
 ```Linux: Run the blackgrabber.sh from Command Line
 
-### Commands
+###Commands
  
 .ss - take screenshot at any time
 .screenrec - record the screen for 15 seconds
