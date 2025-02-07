@@ -1,7 +1,7 @@
 ### Black Grabber 
 
 
-https://cdn.discordapp.com/attachments/1337178932436533309/1337447036122828810/tumblr_otrdwxiORG1w603yfo1_500.webp?ex=67a77a1d&is=67a6289d&hm=4f085f842f4949ff81b43d616605f092d1b3ce98872b7f5772dfcf24260f707b&
+
 
 
 
