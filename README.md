@@ -47,7 +47,7 @@
 - Anti-VM (Brack Grabber won't run on Virtual Machines, f.ex.: VirtualBox, VMWare)
 - run shell commands (CMD/Powershell)
 - Debug Mode for easier testing and contribution
-### Preparation` git clone https://github.com/mategol/blackgrabber-malware
+### Preparation git clone https://github.com/mategol/blackgrabber-malware
 - cd blackgrabber-malware
 
 - Create Discord BOT and server
