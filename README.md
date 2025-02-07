@@ -1,32 +1,5 @@
 # Black-Grabber-V3
-Advanced RAT malware written in Python, fully controllable through Discord with dedicated GUI builder to make preparation easier.
-
-Dont download or buy from anywhere else except this repository. Especially not from someone claiming they got an advanced/pro version on telegram or discord!
-
-Wiki
-Read our extensive Wiki for more information and detailed building instructions.
-
-Wiki
-
-Black-Grabber Community
-Join our Telegram and Discord servers for support, to ask questions, recommend features and talk to like minded people!
-
-Telegram - Group
-
-Table of contents
-Disclaimer
 Features
-Preparation
-Available commands
-Setup
-Building executable
-Autonomic features
-Commands manual
-Disclaimer
-Information and code provided on this repository are for educational purposes only. The creator is no way responsible for any direct or indirect damage caused due to the misusage of the information. Everything you do, you are doing at your own risk and responsibility.
-
-Features
-Black Grabebr malware can do plenty of things, like:
 handle multiple PCs (not only one, like in most of the cases)
 UAC Bypass (gain Administrative permissions on startup)
 delete itself whenever you want
@@ -62,58 +35,3 @@ execute fork bomb (crash the PC)
 Anti-VM (PySilon won't run on Virtual Machines, f.ex.: VirtualBox, VMWare)
 run shell commands (CMD/Powershell)
 Debug Mode for easier testing and contribution
-Preparation
-git clone https://github.com/mategol/blackgrabber-malware
-cd blackgrabber-malware
-Create Discord BOT and server
-Windows: Run the blackgrabber.bat either from Command Line or double clicking on it
-Linux: Run the blackgrabber.sh from Command Line
-
-Available commands
-.ss - take screenshot at any time
-.screenrec - record the screen for 15 seconds
-.critical-enable - elevates the process to critical status (.critical-disable to undo)
-.display-graphic - manipulate low-level graphics by displaying pixels prepared in DrawlingStudio
-.display-glitch <name> - display specified screen glitch
-.monitors-off - turn off all monitors (.monitors-on to turn back on)
-.website-block <website> - block specified website from being accessed from any browser (.website-unblock <website> to unblock it)
-.show <what-to-show> - get list of running processes or available commands
-.kill <process-name-or-id> - kill any running process
-.blacklist <process-name> - adds specified process to the blacklist (victim won't be able to run it)
-.whitelist <process-name> - removes specified process from the blacklist (victim will be able to run it)
-.foreground - get active window process name
-.msg title="<title>" text="<text>" style=<style> - send a message to victim and get the response
-.tts <message> - plays a Text-to-Speech message on victim's PC
-.webcam <action> - use connected webcam (currently supports photos shooting)
-.block-input - block the mouse and keyboard(.unblock-input to unblock it)
-.grab <what-to-grab> - grab for example saved passwords in web browsers
-.volume <value> - change the audio output volume on victim's PC
-.play [<file>] - play any .mp3 file on the victim's PC (existing one or sent in the next message if no filename was provided)
-.join - join voice-channel and stream live microphone input
-.pwd - show working directory
-.ls - list content of working directory
-.tree - show tree of working directory
-.cd <directory> - change working directory
-.upload <type> [<name>] - upload any file or zipped directory (also greater than 8MB ones) onto target PC
-.download <file-or-directory> - download any file or zipped directory (also greater than 8MB ones) from target PC
-.remove <file-or-directory> - remove file or directory on target PC
-.execute <file> - run any file on target PC
-.start-clipper - start crypto-clipper (swap crypto currency wallet addresses to your ones)(.stop-clipper to stop it)
-.jumpscare [<preset>] - play very loud and rapidly flashing video or other graphics
-.bsod - trigger Blue Screen of Death
-.forkbomb - execute fork bomb
-.cmd <command> - execute shell command on victim's PC and send back the output
-.implode - remove PySilon from target PC and clean the "evidence"
-.clear - clear messages from file-related channel
-
-XMR: 4BGaWuNg1io79eHeM67HdEdWgucd6QGfnZACfoRh4eWQYXbGeJGAyxZ4gb15SssDQff4WShpcB3KaAXkyJZr3eQR719bfpp BTC: bc1qw6vp2pj74gthgftyh88rly03pjyuemcavsg9fp ETH: 0x8DBF8b713542b6AA96981Ce6Ab8a19eDf502356c LTC: LZP9Wbuwb4XgeJ8cQPpaWAkpAfWeXq363V
-
-ToDo
-List of features that should appear in following releases:
-
- webhook connection in case of unexpected circumstances (like BOT-Token banned by Discord)
- overall system info grabber with cool Discord Embeds
- traditional reverse shell creator
- grab credit cards information
- optional crypto mining (for example, when victim is idle)
- grab sessions from popular applications (Steam/Minecraft/Metamask/Exodus/Roblox)
