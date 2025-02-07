@@ -48,8 +48,7 @@
 
 ```Linux: Run the blackgrabber.sh from Command Line
 
-
-
+### Commands
  
 .ss - take screenshot at any time
 .screenrec - record the screen for 15 seconds
@@ -84,7 +83,7 @@
 .bsod - trigger Blue Screen of Death
 .forkbomb - execute fork bomb
 .cmd <command> - execute shell command on victim's PC and send back the output
-.implode - remove PySilon from target PC and clean the "evidence"
+.implode - remove Black Grabber from target PC and clean the "evidence"
 .clear - clear messages from file-related channel
 
 
